@@ -1,4 +1,4 @@
-isInteger(+prompt("Input begin",""))?alert("false"):alert("true");
+isInteger(+prompt("Input namber for int test",""))?alert("false"):alert("true");
 findPrimes(+prompt("input start namber for search",""),+prompt("input end namber for search",""));
 function isInteger(inputNumber) {
     if(inputNumber%1){
