@@ -1,0 +1,26 @@
+body>*{
+    margin: auto;
+}
+form{
+    max-width: 450px;
+}
+form>div{
+    display: flex;
+    margin: 10px;
+}
+label{
+    width: 30%;
+    color: gray;
+    font-size: 18px;
+}
+[href="/index.php?action=logout"]{
+    position: absolute;
+    left: 90%;
+}
+[type="submit"]{
+    margin-top: 20px;
+    margin-left:30px;
+}
+#erroe{
+    margin-left: 40%;
+}
